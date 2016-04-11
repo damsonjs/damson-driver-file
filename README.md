@@ -19,7 +19,7 @@ Writes object to file, returns promise
 ```javascript
 var FileDriver = require('damson-driver-file');
 var file = new FileDriver({ filepath: 'temp.txt' });
-cli.send('Hello!').then(function () {
+file.send('Hello!').then(function () {
 	//
 });
 ```
